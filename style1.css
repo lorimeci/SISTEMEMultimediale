@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --red: #F26419;
+    --orange: #F6AE2D;
+    --dark-blue: #33658A;
+    --LIGHT-BLUE: #86BBD8;
+    --DARK: #2F4858;
+}
+
+BODY {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(blue, lightblue, pink);
+}
+
+
+/*align container*/
+
+.container__center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.center__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.align__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: var(--DARK);
+}
+
+p {
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 22px;
+    margin: 2rem 0;
+    color: var(--DARK);
+}
+
+a {
+    text-decoration: none;
+}
+
+.ul li {
+    list-style: none;
+}
+
+
+/*hero area*/
+
+#hero__area {
+    width: 100%;
+    height: 70vh;
+    background: url(blue.jpg);
+    /*spunon kjo me cmendi*/
+    /*per mom po e lej kshu ndroshta e rregulloj me vone */
+    background-position: center;
+    background-size: cover;
+}
+
+#hero__area nav {
+    height: 10%;
+    width: 80%;
+}
+
+.logo {
+    color: var(--orange)
+}
+
+nav.logo {
+    color: var(--orange);
+}
+
+nav a {
+    color: var(--LIGHT-BLUE);
+    margin: 0 20px;
+}
+
+nav a:hover {
+    color: var(--orange);
+}
+
+.landing__content {
+    height: 90%;
+    width: 80%;
+}
+
+.landing__content .landing__info {
+    width: 60%;
+    height: 100%;
+}
+
+.landing__info h1 {
+    color: var(--light-blue);
+}
+
+.landing__info p {
+    color: var(--LIGHT-BLUE);
+    width: 60%;
+}
+
+.landing__info button {
+    border: none;
+    background: transparent;
+    outline: none;
+}
+
+.landing__info button:active {
+    text-transform: translateY(2px);
+}
+
+.landing__info a {
+    color: var(--dark-blue);
+    background-color: var(--orange);
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-transform: uppercase;
+}

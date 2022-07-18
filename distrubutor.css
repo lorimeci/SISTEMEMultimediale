@@ -1,0 +1,227 @@
+BODY {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(blue, lightblue, pink);
+}
+
+#hero__area {
+    width: 100%;
+    height: 70vh;
+    background: url('blue.jpg');
+    /*spunon kjo me cmendi*/
+    /*per mom po e lej kshu ndroshta e rregulloj me vone */
+    background-position: center;
+    background-size: cover;
+}
+
+#hero__area nav {
+    height: 10%;
+    width: 80%;
+}
+
+.container__center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.center__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.align__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: var(--DARK);
+}
+
+p {
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 22px;
+    margin: 2rem 0;
+    color: var(--DARK);
+}
+
+a {
+    text-decoration: none;
+}
+
+.ul li {
+    list-style: none;
+}
+
+.image__pet {
+    width: 40%;
+    height: 100%;
+    background: url('dog.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    color: orange;
+}
+
+nav.logo {
+    color: orange;
+}
+
+nav a {
+    color: lightblue;
+    margin: 0 20px;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+.landing__content {
+    height: 90%;
+    width: 80%;
+}
+
+.landing__content .landing__info {
+    width: 60%;
+    height: 100%;
+}
+
+.landing__info h1 {
+    color: lightblue;
+}
+
+.landing__info p {
+    color: lightblue;
+    width: 60%;
+}
+
+.landing__info button {
+    border: none;
+    background: transparent;
+    outline: none;
+}
+
+.landing__info button:active {
+    text-transform: translateY(2px);
+}
+
+.landing__info a {
+    color: darkblue;
+    background-color: orange;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+.paragraf {
+    text-align: center;
+    color: black;
+    background-color: floralwhite;
+}
+
+form {
+    width: 60vw;
+    max-width: 800px;
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+
+form .form__row {
+    width: 100%;
+    position: relative;
+}
+
+.form__row input {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: solid 1px orange;
+    outline: none;
+}
+
+
+/*hide arrows from input number*/
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+    -webkit-apperance: none;
+}
+
+.form__row label {
+    position: absolute;
+    bottom: 2px;
+    left: 2px;
+    color: red;
+    font-size: 14px;
+    transition: 0.5s;
+}
+
+input:focus~label {
+    top: -5px;
+    font-size: 10px;
+    color: darkblue;
+    /*ktu mdkt u bo ai efekti qe kur e shtyp ate emrin prsh leviz ajo*/
+}
+
+textarea {
+    width: 100%;
+    height: 30px;
+    margin-top: 1rem;
+    border: none;
+    border-bottom: 1px solid lightblue;
+    outline: none;
+    appearance: none;
+    resize: none
+}
+
+textarea::placeholder {
+    color: darkblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form button {
+    background-color: darkblue;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: lightblue;
+    cursor: pointer;
+    width: 60%;
+    margin: 5px;
+}
+
+form button:active {
+    transform: scale(0.99);
+}
+
+
+/*footer*/
+
+footer {
+    background-color: orange;
+}
+
+.footer__cont {
+    width: 60%;
+    margin: auto;
+}
+
+.footer__cont .fab {
+    color: darkslategray;
+    font-size: 20px;
+    margin: 0 10px;
+}

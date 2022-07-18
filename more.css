@@ -1,0 +1,54 @@
+body {
+    background: linear-gradient(blue, lightblue);
+}
+
+.controll {
+    width: 100%;
+    text-align: center;
+}
+
+.audio {
+    float: left;
+    width: 100px;
+}
+
+.video {
+    float: center;
+    width: 1500px;
+}
+
+.log {
+    color: orange;
+    text-align: left;
+}
+
+nav.log {
+    color: orange;
+}
+
+nav a {
+    color: lightblue;
+    margin: 0 20px;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+.par {
+    text-align: left;
+    color: black;
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#ven {
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+table {
+    width: 400px;
+    border-spacing: 20px;
+}
